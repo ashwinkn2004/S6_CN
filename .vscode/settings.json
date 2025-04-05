@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "SERVER.C": "cpp"
+        "SERVER.C": "cpp",
+        "stdio.h": "c",
+        "time.h": "c"
     }
 }
