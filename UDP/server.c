@@ -10,7 +10,7 @@ void main(){
 	char server_message[2000], client_message[2000];
 	
 	memset(server_message, '\0', sizeof(server_message));
-    	memset(client_message, '\0', sizeof(client_message));
+    memset(client_message, '\0', sizeof(client_message));
 	
 	serversock = socket(AF_INET, SOCK_DGRAM, IPPROTO_UDP);
 	serveraddr.sin_family = AF_INET;
