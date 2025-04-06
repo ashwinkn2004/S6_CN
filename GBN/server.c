@@ -43,7 +43,7 @@ void main() {
             continue;
         }
 
-        ch = rand() % 2;
+        ch = rand() % 3;
         switch(ch) {
             case 0:
                 printf("Frame %d not received\n", frame); 
